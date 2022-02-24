@@ -9,7 +9,7 @@ $paragraph = 'Il mio teacher ha detto che sono scarso';
 
 $paragraph_length = strlen($paragraph);
 
-$get_word = $_GET["word"];
+$get_word = $_GET["word"] ?? '';
 
 // str_replace(porzioneDaModificare, conCosa, stringa) - sostituisce una porzione di una stringa con un nuovo valore
 
