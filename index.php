@@ -33,6 +33,11 @@ $censured_length = strlen($paragraph_censured);
     <h2><?php echo "Lunghezza paragrafo originale: $paragraph_length"; ?></h2>
     <h2><?php echo "Lunghezza paragrafo censurato: $censured_length"; ?></h2>
 
+    <form action="index.php" method="get">
+        <input type="text" placeholder="inserisci parola da censurare" name="word">
+        <button type="submit">Censura</button>
+    </form>
+
 </body>
 
 </html>
